@@ -67,7 +67,7 @@ watch(searchQuery, (currentValue) => {
       </button>
     </div>
     <div class="flex flex-row mt-4 mb-8 lg:justify-center lg:w-1/3 sm:w-full">
-      <BacklogList v-show="!sortToggle && !searchToggle" class="flex flex-col w-full overflow-y-scroll"/>
+      <BacklogList v-show="!sortToggle && !searchToggle" class="flex flex-col w-full"/>
     </div>
     <div class="flex flex-row mt-4 mb-8 justify-center lg:w-1/3 sm:w-full">
       <div class="flex flex-col w-full ">
